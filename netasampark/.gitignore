@@ -1,24 +1,171 @@
-*.log
-.DS_Store
-.env
-.env.backup
-.env.production
-.phpactor.json
-.phpunit.result.cache
-/.fleet
-/.idea
-/.nova
-/.phpunit.cache
-/.vscode
-/.zed
-/auth.json
-/node_modules
-/public/build
+# Laravel
+/vendor/
+/node_modules/
 /public/hot
 /public/storage
 /storage/*.key
-/storage/pail
-/vendor
-Homestead.json
-Homestead.yaml
+/storage/app/public
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+/bootstrap/cache
+
+# Environment
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Laravel Mix
+/public/js
+/public/css
+/public/mix-manifest.json
+
+# Laravel Horizon
+/storage/horizon
+
+# Laravel Telescope
+/storage/telescope
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# Compiled assets
+/public/build
+/public/vendor
+
+# Testing
+/coverage
+/.phpunit.cache
+
+# Deployment
+/deploy
+/deployment
+
+# Local configuration
+/config/local.php
+/config/testing.php
+
+# Database
+*.sqlite
+*.db
+
+# Cache
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+
+# Exports
+/storage/exports
+/storage/imports
+
+# Uploads
+/storage/uploads
+/storage/temp
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Kubernetes
+*.kubeconfig
+
+# Local development
+/local
+/tmp
+/temp
